@@ -1,4 +1,4 @@
-export const TIMER_MODES = [
+export const timerModes = [
   {
     id: "short",
     label: "Short Break",
