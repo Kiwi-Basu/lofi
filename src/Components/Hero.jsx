@@ -95,7 +95,7 @@ const Hero = () => {
               onClick={() => {
                 getMode(mode)
               }}
-              className={`border px-3 py-2 rounded-2xl shadow  font-mono cursor-pointer hover:scale-105 transition-all duration-300 hover:shadow-md
+              className={`border lg:px-3 lg:py-2 p-2 text-sm lg:text-xl   rounded-2xl shadow  font-mono cursor-pointer hover:scale-105 transition-all duration-300 hover:shadow-md
                 ${
                   selectMode === mode.id
                     ? "border-black/30 backdrop-blur-lg text-black"
@@ -218,7 +218,7 @@ const Hero = () => {
                 <div className='border h-3 border-white/15'></div>
               </div>
               
-              <p className='text-sm text-white/20 font-mono border-2 rounded-2xl px-2 border-white/30'>Change vibe</p>
+              <p className='lg:text-sm text-[13px] text-white/20 font-mono border-2 rounded-2xl px-2 border-white/30'>Change vibe</p>
 
             </div>
             <div onClick={toggleScreen} className='border rounded-2xl p-2 border-white/30 text-white cursor-pointer backdrop-blur-2xl hover:backdrop-blur-md transition-all duration-300'>
